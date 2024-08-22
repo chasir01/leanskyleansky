@@ -1,0 +1,31 @@
+Agaricus - Field Mushroom
+
+-standard [500 quant, 75 energy, 200 water, nut index 75, full index 10, tox -10] [50000]
+
+Boletus - Penny Bun
+
+- [1000 quant, 500 init, 100 energy, 800 water, nut index 25, full index 10, tox -10] [3000]
+
+Macrolepiota - Parasol Mushroom
+
+- [2000 quant, 100 energy, 200 water, nut index 10, full index 10, tox -10] [2000]
+
+Auricularia - Wood Ear
+
+- [500 quant, 100 energy, 200 water, nut index 75, full index 1, tox -10] [5000]
+
+Psilocybe - Liberty Cap
+
+- [5000 quant,25 energy, 200 water, nut index 75, full index 10, tox 10] [10000]
+
+Lactarius - Red Pine Mushroom
+
+- [2000 quant, 1500 init, 75 energy, 200 water, nut index 175, full index 10, tox -10] [-1]
+
+Amanita - Fly Amanita
+
+- [3000 quant, 2000 init, 50 energy, 200 water, nut index 75, full index 10, tox 25] [3000]
+
+Pleurotus - Oyster Mushroom
+
+- [100 quant, 75 energy, 200 water, nut index 75, full index 100, tox -10] [50]
