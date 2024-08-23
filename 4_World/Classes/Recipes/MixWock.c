@@ -44,7 +44,7 @@ class Lean extends RecipeBase
 		m_IngredientUseSoftSkills[1] = false;// set 'true' to allow modification of the values by softskills on this ingredient	
 	
 		//result
-        AddResult("Lean_Agaricus");
+        AddResult("Lean_Lean");
 		
 		m_ResultSetFullQuantity[1] = true;//true = set full quantity, false = do nothing
 		m_ResultSetQuantity[0] = 500;//-1 = do nothing
