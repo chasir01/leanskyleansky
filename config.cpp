@@ -37,7 +37,7 @@ class CfgMods
 class CfgVehicles
 {
 	class Bottle_Base;
-    class Lean_CupBase: Bottle_Base
+    class Lean_Base: Bottle_Base
     {
         scope = 2;
         displayName = "LeanBase";
@@ -58,7 +58,7 @@ class CfgVehicles
         varQuantityMin = 0;
         varQuantityImax = 500;
     };
-    class Lean_Agaricus: Lean_CupBase
+    class Lean_Lean: Lean_Base
     {
         displayName = "Lean";
         descriptionShort = "A 'cup' of Lean.";
@@ -76,7 +76,7 @@ class CfgVehicles
 
 class cfgLiquidDefinitions
 {
-class AgaricusLean
+class Lean
     {
      type = 131072;
     displayName = "Lean";
