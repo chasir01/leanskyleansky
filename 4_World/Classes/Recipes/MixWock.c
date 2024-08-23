@@ -3,10 +3,10 @@ modded class PluginRecipesManager extends PluginBase
 	 void RegisterRecipies()
 	{
 		super.RegisterRecipies();
-		RegisterRecipe(new ST_AgaricusLean);
+		RegisterRecipe(new Lean);
 	};	
 };
-class ST_AgaricusLean extends RecipeBase
+class Lean extends RecipeBase
 {	
 	override void Init()
 	{
@@ -28,7 +28,7 @@ class ST_AgaricusLean extends RecipeBase
 		
 		//INGREDIENTS
 		//ingredient 1
-		InsertIngredient(0,"AgaricusMushroom");//you can insert multiple ingredients this way
+		InsertIngredient(0,"PainkillerTablets");//you can insert multiple ingredients this way
 		m_IngredientAddHealth[0] = 0;// 0 = do nothing
 		m_IngredientSetHealth[0] = -1; // -1 = do nothing
 		m_IngredientAddQuantity[0] = 0;// 0 = do nothing
@@ -36,7 +36,7 @@ class ST_AgaricusLean extends RecipeBase
 		m_IngredientUseSoftSkills[0] = false;// set 'true' to allow modification of the values by softskills on this ingredient	
 		
 		//ingredient 2		
-		InsertIngredient(1,"Bottle_Base");//you can insert multiple ingredients this way
+		InsertIngredient(1,"SodaCan_Spite");//you can insert multiple ingredients this way
 		m_IngredientAddHealth[1] = 0;// 0 = do nothing
 		m_IngredientSetHealth[1] = -1; // -1 = do nothing
 		m_IngredientAddQuantity[1] = 0;// 0 = do nothing
